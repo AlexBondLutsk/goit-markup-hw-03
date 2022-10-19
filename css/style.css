@@ -62,6 +62,10 @@ ul {
 
 /* header */
 
+.main-header {
+    border-bottom: 1px solid;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -236,6 +240,7 @@ ul {
     font-size: 14px;
     line-height: 1.1;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .feauters-list {
@@ -388,11 +393,10 @@ img {
     background-color: var(--light-bg-color);
     color: var(--title-text-color);
     cursor: pointer;
-    width: 125px;
-    height: 38px;
+    padding: 6px 22px;
     display: block;
     border: none;
-    border: 4px;
+    border-radius: 4px;
 }
 
 .portfolio-btns .item:not(:last-child) {
